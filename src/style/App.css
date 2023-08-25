@@ -47,10 +47,10 @@ body {
   margin-right: 12px;
   display: flex;
   align-items: center;
-  padding-left: 5px;
-  padding-right: 5px;
   text-decoration: none;
   flex-direction: column;
+  min-width: 75px;
+  max-width: 100px;
 }
 .block-icon i {
   font-size: 30px;
