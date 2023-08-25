@@ -1,0 +1,114 @@
+.container-chat-box {
+    max-height: 550px;
+    max-width: 800px;
+    background-color: #383a46;
+    padding: 0;
+    border-radius: 12px;
+    text-align: center;
+}
+.top-box-chat {
+    color: rgb(221, 221, 221);
+}
+.chat-box {
+    min-height: 400px;
+    overflow-y: auto;
+}
+.chat-message {
+    display: flex;
+}
+.chat-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.bot-avatar,
+.user-avatar {
+    width: inherit;
+    height: auto;
+}
+.user-message {
+    background-color: #2d2e36;
+    padding: 8px;
+    display: flex;
+    width: -webkit-fill-available;
+    color: rgb(221, 221, 221);
+}
+.bot-message {
+    padding: 8px;
+    display: flex;
+    width: -webkit-fill-available;
+    color: rgb(221, 221, 221);
+}
+.chat-container {
+    text-align: left;
+    padding-left: 15px;
+    font-size: 16px;
+    width: -webkit-fill-available;
+}
+.chat-name {
+    font-weight: bold;
+    text-align: left;
+}
+.input-box {
+    display: flex;
+    min-width: 200px;
+}
+.input-text {
+    flex: 1;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #ccc;
+    overflow-y: auto;
+    resize: none;
+}
+.copy-btn {
+    padding-right: 10px;
+    padding-bottom: 2px;
+}
+.copy-btn:hover {
+    color: aliceblue;
+    cursor: pointer;
+}
+.fa-check {
+    color: #31d807;
+}
+.fa-paper-plane {
+    color: #a90fd9;
+    font-size: 25px;
+}
+.top-box-chat {
+    padding: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+        "Droid Sans", "Helvetica Neue", sans-serif;
+}
+.textcopy {
+    font-size: 12px !important;
+    font-weight: 100;
+    padding-left: 3px;
+    color: #c2c2c2;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+        "Droid Sans", "Helvetica Neue", sans-serif;
+}
+.submit-button {
+    border-radius: 0 5px 5px 0;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f100;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
